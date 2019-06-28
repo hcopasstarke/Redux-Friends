@@ -39,7 +39,7 @@ class CreateFriendForm extends React.Component {
 	render() {
 		return (
 			<div>
-				<h3>Add a Friend</h3>
+				<h3>Add to your friends below!</h3>
 				<form action=''>
 					<input type='text' name='name' placeholder='name' onChange={this.handleInput} />
 					<input type='text' name='age' placeholder='age' onChange={this.handleInput} />
